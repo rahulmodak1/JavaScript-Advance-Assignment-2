@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima&display=swap");
+:root {
+    margin: 0;
+    padding: 0;
+    --font1: "Arima", cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: rgba(127, 163, 255, 0.088);
+    width: 500px;
+    border: 15px solid black;
+    position: absolute;
+    box-shadow: 19px 6px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    font-size: 25px;
+}
+
+header h4 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+#header {
+    font-size: 40px;
+    /* font-style: italic; */
+    text-shadow: 2px 5px 4px #4563;
+    font-family: var(--font1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 25px 25px;
+    font-family: "Teko", sans-serif;
+    font-size: 1rem;
+}
+
+.tip {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+
+.bill {
+    padding-bottom: 20px;
+}
+
+#bill {
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 5px 8px 8px 10px;
+    border-radius: 4px 0 0 4px;
+}
+
+#tip {
+    font-size: 20px;
+}
+
+#percentage {
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 5px 8px 8px 10px;
+    border-radius: 0 4px 4px 0;
+}
+
+#bill-inp {
+    width: 417px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    height: 27px;
+    border-radius: 0 4px 4px 0;
+}
+
+#tip-range {
+    width: 354px;
+    margin: 0;
+}
+
+.tip-amount {
+    padding-bottom: 20px;
+    display: flex;
+}
+
+#tip-amount {
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 5px 8px 8px 10px;
+    border-radius: 4px 0 0 4px;
+}
+
+.results-inp-tip {
+    display: flex;
+    width: 345px;
+    height: 30px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    background-color: rgba(0, 0, 0, 0.065);
+    align-items: center;
+}
+
+.total-bil {
+    display: flex;
+}
+
+#total-bil {
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 5px 8px 8px 10px;
+    border-radius: 4px 0 0 4px;
+}
+
+.results-inp-total {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.065);
+    width: 307px;
+    height: 30px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    align-items: center;
+}

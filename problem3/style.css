@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&family=Teko&display=swap");
+:root {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.stopwatch-container {
+    background-color: #ff9f29;
+    width: 550px;
+    height: 300px;
+    border-radius: 0 50px;
+    margin-top: 150px;
+    font-family: "Teko", sans-serif;
+}
+
+.header1 {
+    padding-top: 2px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    text-shadow: 2px 3px 4px black;
+    color: white;
+    margin: 0;
+}
+
+.header2 {
+    padding-top: 2px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    text-shadow: 2px 3px 4px black;
+    color: white;
+    margin: 0;
+}
+
+.header1 h3 {
+    margin: 35px 0 25px 0;
+}
+
+.header2 h3 {
+    margin: 0;
+}
+
+.time-display {
+    font-size: 30px;
+    padding-top: 20px;
+    /* background-color: aliceblue; */
+    text-shadow: 2px 3px 4px black;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#start {
+    padding: 10px 40px 10px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#stop {
+    padding: 10px 40px 10px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#reset {
+    padding: 10px 40px 10px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#start:hover {
+    background-color: white;
+    color: #ff9f29;
+    text-shadow: none;
+}
+
+#stop:hover {
+    background-color: white;
+    color: #ff9f29;
+    text-shadow: none;
+}
+
+#reset:hover {
+    background-color: white;
+    color: #ff9f29;
+    text-shadow: none;
+}
+
+#start:focus-within {
+    box-shadow: inset -15px -17px 19px 5px rgba(0, 0, 0, 0.1);
+}
+
+#stop:focus-within {
+    box-shadow: inset -15px -17px 19px 5px rgba(0, 0, 0, 0.1);
+}
+
+#reset:focus-within {
+    box-shadow: inset -15px -17px 19px 5px rgba(0, 0, 0, 0.1);
+}

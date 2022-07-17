@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@200;300&family=Teko&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@200;300&family=Teko&family=VT323&family=Wallpoet&display=swap");
+:root {
+    --font1: "Teko", sans-serif;
+    --font2: "VT323", monospace;
+    --font3: 'Wallpoet', cursive;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    /* background-color:blue; */
+}
+
+.container {
+    /* background-color: aquamarine */
+    text-align: center;
+    /* background-color: black; */
+    box-shadow: 17px 13px 20px -3px rgba(0, 0, 0, 0.1);
+}
+
+.display-part {
+    display: flex;
+    color: white;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+#display {
+    background-color: black;
+    border-radius: 20px 20px 0 0;
+    height: 70px;
+    width: 401px;
+    border: 1px solid black;
+    font-family: var(--font2);
+    font-size: 35px;
+    float: right;
+}
+
+input {
+    color: white;
+    text-align: right;
+}
+
+button:focus {
+    box-shadow: inset -33px -33px 22px 9px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border: 3px solid;
+}
+
+table td {
+    padding: 0;
+}
+
+table td>button {
+    padding: 30px 43px 30px 40px;
+    cursor: pointer;
+    border: 3px solid black;
+    /* border-radius: 90px;
+    outline: none;border: none;
+    background-color: rgba(0, 0, 255, 0.538); */
+}
+
+.big-b1 {
+    padding: 30px 95px;
+    width: 70px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.682);
+    color: white;
+    font-family: var(--font1);
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 17px 13px 20px -3px rgba(0, 0, 0, 0.1);
+}
+
+.big-b2 {
+    padding: 78px 43px;
+    background-color: #1f4690;
+    color: white;
+}
+
+.t-e {
+    padding: 30px 42px 30px 43px;
+}
+
+#m- {
+    padding: 30px 44px;
+}
+
+.ac {
+    background-color: rgba(180, 0, 0, 0.807);
+    color: white;
+}
+
+#equal {}
+
+.symbols {
+    background-color: rgba(0, 0, 0, 0.469);
+    color: white;
+    /* padding-right:45px ; */
+}
+
+.sym {
+    /* padding-right: 45px; */
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.big-b2:hover {
+    color: #1f4690;
+    background-color: white;
+}
+
+.ac:hover {
+    color: rgba(180, 0, 0, 0.807);
+}
